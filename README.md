@@ -1,6 +1,6 @@
-# photon-dance-shell-snippets
+# shell-snippets
 
-useful code snippets for shell coder
+useful code snippets for shell script.
 
 ## Contributing
 
@@ -14,7 +14,7 @@ useful code snippets for shell coder
 
 ### Step 3
 
-* 🔃 Create a new PR using https://github.com/amazingchow/photon-dance-shell-snippets/compare!
+* 🔃 Create a new PR using https://github.com/amazingchow/shell-snippets/compare!
 
 ## Support
 
