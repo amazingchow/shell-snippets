@@ -1,0 +1,37 @@
+[user]
+        email = jianzhou42@163.com
+        name = amazingchow
+[alias] 
+		# 获取所有远端分支
+        fa = fetch --all
+        co = checkout
+        br = branch
+        # 列出所有远端分支
+        brr = branch -r
+        # 为每个远端分支创建本地分支
+        # for remote in `git branch -r | grep -v '\->'`; do git branch --track ${remote#origin/} $remote; done
+        ci = commit
+        st = status
+        # 拉取所有分支的最新更新
+        pla = pull --all
+        cp = cherry-pick
+        lg = log -n20 --format=format:"%H"
+        lgp = log --all --graph --decorate --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        cnt = rev-list --all --count
+        sc = switch -c
+        sui = submodule update --init
+        unstage = reset HEAD --
+[core]
+        editor = vim
+        quotepath = false
+[push]
+        default = simple
+[credential]
+        helper = store
+[http]
+        proxy = http://192.168.96.7:6666
+[log]
+        date = iso
+[i18n]
+        commitencoding = utf-8
+        logoutputencoding = utf-8
