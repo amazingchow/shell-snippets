@@ -2,7 +2,7 @@
         email = jianzhou42@163.com
         name = amazingchow
 [alias] 
-		# 获取所有远端分支
+	# 获取所有远端分支
         fa = fetch --all
         co = checkout
         br = branch
